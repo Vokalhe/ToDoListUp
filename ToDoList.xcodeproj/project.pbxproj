@@ -13,6 +13,7 @@
 		84C660F81CB55A8F005D6174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C660F61CB55A8F005D6174 /* Main.storyboard */; };
 		84C660FA1CB55A8F005D6174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C660F91CB55A8F005D6174 /* Assets.xcassets */; };
 		84C660FD1CB55A8F005D6174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C660FB1CB55A8F005D6174 /* LaunchScreen.storyboard */; };
+		84C661061CB55AC4005D6174 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C661051CB55AC4005D6174 /* MainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		84C660F91CB55A8F005D6174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C660FC1CB55A8F005D6174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84C660FE1CB55A8F005D6174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C661041CB55AC4005D6174 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		84C661051CB55AC4005D6174 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				84C660F91CB55A8F005D6174 /* Assets.xcassets */,
 				84C660FB1CB55A8F005D6174 /* LaunchScreen.storyboard */,
 				84C660FE1CB55A8F005D6174 /* Info.plist */,
+				84C661041CB55AC4005D6174 /* MainTableViewController.h */,
+				84C661051CB55AC4005D6174 /* MainTableViewController.m */,
 				84C660ED1CB55A8F005D6174 /* Supporting Files */,
 			);
 			path = ToDoList;
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C661061CB55AC4005D6174 /* MainTableViewController.m in Sources */,
 				84C660F51CB55A8F005D6174 /* ViewController.m in Sources */,
 				84C660F21CB55A8F005D6174 /* AppDelegate.m in Sources */,
 				84C660EF1CB55A8F005D6174 /* main.m in Sources */,

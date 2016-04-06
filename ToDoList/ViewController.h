@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (nonatomic, strong) NSDate *eventDate;//данные, которые будет фиксировать наш datePicker, в header так как будем обращатся из другого окна 
 
 
 @end
